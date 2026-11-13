@@ -1,326 +1,512 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Vitis Digital | Consultora de Marketing Digital</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container header-content">
-        <a href="#" class="logo-container">
-          <img src="img/logofinal.svg" alt="Vitis Digital Logo" class="header-logo" />
-        </a>
-        <nav>
-          <a href="#inicio">Inicio</a>
-          <a href="#soluciones">Soluciones</a>
-          <a href="#nosotros">Nosotros</a>
-          <a href="#contacto">Contacto</a>
-          <a
-            href="https://wa.me/5492613878157?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20Vitis%20Digital"
-            class="btn-secundario"
-            target="_blank"
-            >¡Contactar Ahora!</a
-          >
-        </nav>
-      </div>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vitis Digital · Agencia de marketing</title>
+  <meta name="description" content="Nos especializamos en la creación de contenido estratégico para ayudar a emprendedores y pequeñas empresas a conectar con una audiencia más amplia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
-    <section id="inicio" class="hero">
-      <div class="hero-content">
-        <h1>Consultora de Marketing Digital</h1>
-        <p>Gestión y Análisis de todo tipo de marca</p>
-        <div class="contact-dropdown">
-          <button class="btn-principal" onclick="document.getElementById('contact-options').classList.toggle('show')">CONTACTANOS</button>
-          <div id="contact-options" class="contact-options">
-            <a href="https://wa.me/5492613878157?text=Hola%21%20Escribo%20por%20m%C3%A1s%20info%20sobre..." target="_blank">WhatsApp</a>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vitisdigital.agencia@gmail.com&su=Quiero%20m%C3%A1s%20informaci%C3%B3n&body=Hola!%20Escribo%20por%20m%C3%A1s%20info%20sobre..." target="_blank">Gmail</a>
-            <a href="https://outlook.live.com/mail/0/deeplink/compose?to=vitisdigital.agencia@gmail.com&subject=Quiero%20m%C3%A1s%20informaci%C3%B3n&body=Hola!%20Escribo%20por%20m%C3%A1s%20info%20sobre..." target="_blank">Outlook</a>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- Íconos de marca -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 2l1.9 5.6L19.5 9.5 13.9 11.4 12 17l-1.9-5.6L4.5 9.5l5.6-1.9z"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.35-7-9.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 7 3.5C19 15.65 12 20 12 20z"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3zm4.4 12.1c-.2.6-1.2 1.2-1.9 1.2-1.6 0-4-1.6-5.4-4.2-.5-1-.4-2.1.4-2.8.3-.3.8-.2 1 .2l.6 1.1c.1.3.1.6-.1.8l-.3.3c.5 1 1.3 1.8 2.3 2.3l.3-.3c.2-.2.5-.3.8-.2l1.1.5c.4.2.4.7.2 1.1z"/></symbol>
+  <symbol id="i-message" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-4 4V5z"/></symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 8h3l2-2h6l2 2h3v12H4z M12 17a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10m5 10V5m5 15v-7m5 7V8"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M8 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zm8 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM2 21c0-3.3 2.7-6 6-6s6 2.7 6 6m4 0c0-2.6-1-4.7-2.6-5.6"/></symbol>
+  <symbol id="i-arrowUpRight" viewBox="0 0 24 24"><path d="M7 17 17 7m0 0h-7m7 0v7"/></symbol>
+</svg>
 
-    <section id="soluciones" class="services">
-      <div class="container">
-        <h2>Nuestros Servicios</h2>
-        <div class="services-grid">
-          <div class="service-item">
-            <div class="service-icon">📱</div>
-            <h3>Gestión de Redes Sociales</h3>
-            <p>Gestionamos tus redes sociales (Instagram, Facebook, LinkedIn, TikTok) para cualquier tipo de marca y rubro.</p>
-          </div>
-          <div class="service-item">
-            <div class="service-icon">📊</div>
-            <h3>Análisis y Métricas</h3>
-            <p>Reportes detallados de rendimiento, análisis de audiencia y optimización continua de tus campañas.</p>
-          </div>
-          <div class="service-item">
-            <div class="service-icon">🎨</div>
-            <h3>Diseño de Contenido</h3>
-            <p>Creación de contenido visual atractivo y profesional adaptado a la identidad de tu marca.</p>
-          </div>
-          <div class="service-item">
-            <div class="service-icon">📅</div>
-            <h3>Calendarización</h3>
-            <p>Planificación estratégica de publicaciones para mantener una presencia constante y efectiva.</p>
-          </div>
-          <div class="service-item">
-            <div class="service-icon">📈</div>
-            <h3>Publicidad Digital</h3>
-            <p>Campañas en Google Ads, Meta Ads y otras plataformas para maximizar tu alcance y conversiones.</p>
-          </div>
-          <div class="service-item">
-            <div class="service-icon">🔍</div>
-            <h3>SEO y Posicionamiento</h3>
-            <p>Optimización para motores de búsqueda y estrategias de contenido para mejorar tu visibilidad online.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+<div class="topbar">
+  <span>Vitis <b>Digital</b></span>
+  <span>Agencia de <b>marketing</b></span>
+  <span><b>Mendoza · AR</b></span>
+</div>
 
-    <section class="why-choose">
-      <div class="container">
-        <h2>Por qué Elegirnos</h2>
-        <div class="why-grid">
-          <div class="why-item">
-            <div class="why-icon">⭐</div>
-            <h3>Experiencia Multirubro</h3>
-            <p>Trabajamos con marcas de todos los sectores: retail, servicios, tecnología, gastronomía, salud y más.</p>
-          </div>
-          <div class="why-item">
-            <div class="why-icon">👥</div>
-            <h3>Equipo Especializado</h3>
-            <p>Community managers, diseñadores y estrategas digitales expertos en diferentes industrias.</p>
-          </div>
-          <div class="why-item">
-            <div class="why-icon">⚡</div>
-            <h3>Resultados Medibles</h3>
-            <p>Enfoque en KPIs claros: engagement, alcance, conversiones y crecimiento de seguidores.</p>
-          </div>
-          <div class="why-item">
-            <div class="why-icon">📈</div>
-            <h3>Estrategia Personalizada</h3>
-            <p>Cada marca es única. Desarrollamos estrategias a medida según tu rubro y objetivos.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+<header class="header">
+  <div class="header__in">
+    <a href="#inicio" class="logo" data-tab-link="inicio">
+      <span class="logo__name">Vitis</span>
+      <span class="logo__sub">DIGITAL</span>
+    </a>
+    <a class="btn btn--primary btn--sm" data-wa href="#">Coordinemos una reunión</a>
+  </div>
+</header>
 
-    <section class="partners">
-      <div class="container">
-        <h2>Plataformas y Herramientas</h2>
-        <div class="partners-grid">
-          <div class="partner-item">
-            <img src="img/manychat.svg" alt="ManyChat" class="partner-icon" onerror="this.style.display='none';" />
-            <span>ManyChat</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/zapier.svg" alt="Zapier" class="partner-icon" onerror="this.style.display='none';" />
-            <span>Zapier</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/hubspot.svg" alt="HubSpot" class="partner-icon" onerror="this.style.display='none';" />
-            <span>HubSpot</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/wix.svg" alt="Wix" class="partner-icon" onerror="this.style.display='none';" />
-            <span>Wix</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/tiendanube.svg" alt="TiendaNube" class="partner-icon" onerror="this.style.display='none';" />
-            <span>TiendaNube</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/metricool.svg" alt="Metricool" class="partner-icon" onerror="this.style.display='none';" />
-            <span>Metricool</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/kajabi.svg" alt="Kajabi" class="partner-icon" onerror="this.style.display='none';" />
-            <span>Kajabi</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/instagram.svg" alt="Instagram" class="partner-icon" onerror="this.style.display='none';" />
-            <span>Instagram</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/facebook.svg" alt="Facebook" class="partner-icon" onerror="this.style.display='none';" />
-            <span>Facebook</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/linkedin.svg" alt="LinkedIn" class="partner-icon" onerror="this.style.display='none';" />
-            <span>LinkedIn</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/tiktok.svg" alt="TikTok" class="partner-icon" onerror="this.style.display='none';" />
-            <span>TikTok</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/googleads.svg" alt="Google Ads" class="partner-icon" onerror="this.style.display='none';" />
-            <span>Google Ads</span>
-          </div>
-          <div class="partner-item">
-            <img src="img/metaads.svg" alt="Meta Ads" class="partner-icon" onerror="this.style.display='none';" />
-            <span>Meta Ads</span>
-          </div>
-        </div>
-        <!--
-        Recomendación CSS para estilos de íconos:
-        .partner-icon {
-          width: 32px;
-          height: 32px;
-          vertical-align: middle;
-          margin-right: 8px;
-        }
-        .partners-grid {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 16px;
-        }
-        .partner-item {
-          display: flex;
-          align-items: center;
-          min-width: 150px;
-          min-height: 48px;
-          background: #f7f7f7;
-          border-radius: 8px;
-          padding: 8px 16px;
-          font-size: 1rem;
-        }
-        -->
-      </div>
-    </section>
+<main>
+  <section id="inicio" class="hero">
+    <video class="hero__video" src="video/portada.mp4" poster="img/fondos/hero.jpg" autoplay muted loop playsinline preload="metadata" aria-hidden="true"></video>
+    <div class="hero__shade" aria-hidden="true"></div>
+    <svg class="ic ic--fill sticker sticker--a"><use href="#i-sparkle"/></svg>
+    <svg class="ic ic--fill sticker sticker--b"><use href="#i-sparkle"/></svg>
+    <svg class="ic ic--fill sticker sticker--c"><use href="#i-heart"/></svg>
 
-    <section class="cta-section">
-      <div class="container">
-        <h2>¿Buscás hacer crecer tu marca?</h2>
-        <p>Consultá a nuestros expertos en marketing digital</p>
-        <div class="contact-dropdown">
-          <button class="btn-principal" onclick="document.getElementById('contact-options-cta').classList.toggle('show')">CONTÁCTANOS</button>
-          <div id="contact-options-cta" class="contact-options">
-            <a href="https://wa.me/5492613878157?text=Hola%21%20Escribo%20por%20m%C3%A1s%20info%20sobre..." target="_blank">WhatsApp</a>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vitisdigital.agencia@gmail.com&su=Quiero%20m%C3%A1s%20informaci%C3%B3n&body=Hola!%20Escribo%20por%20m%C3%A1s%20info%20sobre..." target="_blank">Gmail</a>
-            <a href="https://outlook.live.com/mail/0/deeplink/compose?to=vitisdigital.agencia@gmail.com&subject=Quiero%20m%C3%A1s%20informaci%C3%B3n&body=Hola!%20Escribo%20por%20m%C3%A1s%20info%20sobre..." target="_blank">Outlook</a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div id="carpeta" class="folder">
+      <nav class="tabs" role="tablist" aria-label="Secciones">
+        <button class="tab is-active" role="tab" data-tab="inicio">Inicio</button>
+        <button class="tab" role="tab" data-tab="trabajos">Trabajos</button>
+        <button class="tab" role="tab" data-tab="servicios">Servicios</button>
+        <button class="tab" role="tab" data-tab="recursos">Regalos</button>
+        <button class="tab" role="tab" data-tab="preguntas">Preguntas</button>
+        <button class="tab tab--game" role="tab" data-tab="juego">Jugá ♥</button>
+      </nav>
 
-    <section id="contacto" class="contact">
-      <div class="container">
-        <h2>Contáctanos</h2>
-        <div class="contact-info">
-          <div class="contact-item">
-            <strong>WhatsApp:</strong>
-            <a
-              href="https://wa.me/5492613878157?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20Vitis%20Digital"
-              target="_blank"
-              >+54 9 261 387-8157</a
-            >
-          </div>
-          <div class="contact-item">
-            <strong>Email:</strong>
-            <a href="mailto:vitisdigital.agencia@gmail.com?subject=Quiero%20m%C3%A1s%20informaci%C3%B3n&body=Hola!%20Escribo%20por%20m%C3%A1s%20info%20sobre...">vitisdigital.agencia@gmail.com</a>
-          </div>
-        </div>
-      </div>
-    </section>
+      <div class="folder__body">
 
-    <footer>
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-logo" style="display: flex; justify-content: center; align-items: center;">
-            <div style="border-radius: 50%; width: 160px; height: 160px; display: flex; justify-content: center; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.08); overflow: hidden; background: transparent;">
-              <img src="img/logofinal.svg" alt="Vitis Digital Logo" class="header-logo" style="width: 120px; height: 120px; object-fit: contain; background: transparent;" />
+        <!-- ================= INICIO ================= -->
+        <div data-panel="inicio">
+          <div class="home">
+            <div class="badge-dark">Agencia de marketing</div>
+            <h1 class="hero-title">
+              <span class="hero-title__a">Contenido que</span>
+              <span class="hero-title__b">conecta.</span>
+              <span class="hero-title__c">Resultados que crecen.</span>
+            </h1>
+            <p class="text">Nos especializamos en la creación de contenido estratégico para ayudar a emprendedores y pequeñas empresas a conectar con una audiencia más amplia.</p>
+            <div class="btn-row">
+              <a class="btn btn--primary btn--lg" data-wa href="#">Contanos de tu marca</a>
+              <button class="btn btn--pill btn--lg" data-go="trabajos">Ver trabajos</button>
             </div>
           </div>
-          <div class="footer-links">
-            <div class="footer-section">
-              <h4>Menu</h4>
-              <a href="#inicio">Inicio</a>
-              <a href="#soluciones">Soluciones</a>
-              <a href="#nosotros">Nosotros</a>
-              <a href="#contacto">Contacto</a>
+
+          <div class="reels reels--home">
+            <div class="head-row">
+              <div class="head">
+                <div class="eyebrow eyebrow--rose">Reels</div>
+                <h3 class="title title--sm"><span class="title__big">Videos que</span> <span class="title__it">frenan el scroll.</span></h3>
+              </div>
+              <p class="text reels__hint">Deslizá para ver más</p>
+            </div>
+            <div class="reels__row">
+              <figure class="reel"><video src="video/reel-af-1.mp4" poster="img/trabajos/poster-reel-af-1.jpg" muted loop playsinline preload="none" aria-label="Reel de @aestheticfitnessmendoza"></video><figcaption><span class="reel__tag">Humor</span><span class="reel__handle">@aestheticfitnessmendoza</span></figcaption></figure>
+              <figure class="reel"><video src="video/reel-sofi.mp4" poster="img/trabajos/poster-reel-sofi.jpg" muted loop playsinline preload="none" aria-label="Reel de @nutrisofi.ok"></video><figcaption><span class="reel__tag">Educativo</span><span class="reel__handle">@nutrisofi.ok</span></figcaption></figure>
+              <figure class="reel"><video src="video/reel-depormania.mp4" poster="img/trabajos/poster-reel-depormania.jpg" muted loop playsinline preload="none" aria-label="Reel de @depormania.arg"></video><figcaption><span class="reel__tag">Producto</span><span class="reel__handle">@depormania.arg</span></figcaption></figure>
+              <figure class="reel"><video src="video/reel-saom.mp4" poster="img/trabajos/poster-reel-saom.jpg" muted loop playsinline preload="none" aria-label="Reel de @saom.ind"></video><figcaption><span class="reel__tag">Moda</span><span class="reel__handle">@saom.ind</span></figcaption></figure>
+              <figure class="reel"><video src="video/reel-af-2.mp4" poster="img/trabajos/poster-reel-af-2.jpg" muted loop playsinline preload="none" aria-label="Reel de @aestheticfitnessmendoza"></video><figcaption><span class="reel__tag">Servicio</span><span class="reel__handle">@aestheticfitnessmendoza</span></figcaption></figure>
+              <figure class="reel"><video src="video/reel-somatic.mp4" poster="img/trabajos/poster-reel-somatic.jpg" muted loop playsinline preload="none" aria-label="Reel de @somaticspirit"></video><figcaption><span class="reel__tag">Storytelling</span><span class="reel__handle">@somaticspirit</span></figcaption></figure>
             </div>
           </div>
-          <div class="footer-social">
-            <h4>Síguenos</h4>
-            <div class="social-links">
-              <a href="#" target="_blank">LinkedIn</a>
-              <a href="#" target="_blank">Facebook</a>
-              <a
-                href="https://wa.me/5492613878157?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20Vitis%20Digital"
-                target="_blank"
-                >WhatsApp</a
-              >
+
+          <!-- Resumen de Servicios y Preguntas: cada ítem abre su pestaña -->
+          <div class="peek">
+            <div class="peek__col">
+              <div class="peek__head"><div class="eyebrow">Servicios</div><button class="peek__more" data-go="servicios">Ver todos →</button></div>
+              <div class="peek__grid">
+                <button class="peek-svc" data-go="servicios"><span class="peek-svc__ic"><svg class="ic"><use href="#i-chart"/></svg></span>Estrategia de contenido</button>
+                <button class="peek-svc" data-go="servicios"><span class="peek-svc__ic"><svg class="ic"><use href="#i-camera"/></svg></span>Fotos y reels</button>
+                <button class="peek-svc" data-go="servicios"><span class="peek-svc__ic"><svg class="ic"><use href="#i-message"/></svg></span>Community management</button>
+                <button class="peek-svc" data-go="servicios"><span class="peek-svc__ic"><svg class="ic"><use href="#i-users"/></svg></span>Paid Media</button>
+                <button class="peek-svc" data-go="servicios"><span class="peek-svc__ic"><svg class="ic ic--fill"><use href="#i-sparkle"/></svg></span>Sorteos y campañas</button>
+                <button class="peek-svc" data-go="servicios"><span class="peek-svc__ic"><svg class="ic ic--fill"><use href="#i-heart"/></svg></span>Reporte mensual</button>
+              </div>
+            </div>
+            <div class="peek__col">
+              <div class="peek__head"><div class="eyebrow">Preguntas frecuentes</div><button class="peek__more" data-go="preguntas">Ver todas →</button></div>
+              <div class="peek__qs" id="peek-qs"></div>
+            </div>
+          </div>
+
+          <div class="home-block home-block--promo">
+          <button class="game-promo" data-go="juego">
+              <span class="game-promo__ic"><svg class="ic ic--fill"><use href="#i-heart"/></svg></span>
+              <span class="game-promo__txt"><b>Jugá Vitis Run</b><span>Esquivá los errores de un perfil y ganá una Auditoría Express gratis.</span></span>
+              <span class="game-promo__go">Jugar →</span>
+            </button>
+          </div>
+
+          <div id="contacto" class="contact">
+            <div class="head">
+              <div class="eyebrow">Contacto</div>
+              <h2 class="title"><span class="title__big block">Coordinemos</span><span class="title__it">una reunión.</span></h2>
+            </div>
+            <p class="text">Contanos de tu marca y armamos juntas una propuesta a medida. Si tenés dudas antes, mirá las preguntas frecuentes.</p>
+            <div class="contact-grid">
+              <a class="ctile ctile--dark" data-wa href="#" target="_blank" rel="noopener">
+                <span class="ctile__ic"><svg class="ic ic--fill"><use href="#i-whatsapp"/></svg></span>
+                <span class="ctile__txt"><span class="ctile__t">WhatsApp</span><span class="ctile__s">Escribinos y coordinamos una reunión</span></span>
+                <svg class="ic ctile__arrow"><use href="#i-arrowUpRight"/></svg>
+              </a>
+              <a class="ctile" href="mailto:info@vitisdigital.com.ar">
+                <span class="ctile__ic"><svg class="ic"><use href="#i-message"/></svg></span>
+                <span class="ctile__txt"><span class="ctile__t">Mail</span><span class="ctile__s">info@vitisdigital.com.ar</span></span>
+                <svg class="ic ctile__arrow"><use href="#i-arrowUpRight"/></svg>
+              </a>
+              <a class="ctile" href="https://www.instagram.com/vitisdigital.agencia/" target="_blank" rel="noopener">
+                <span class="ctile__ic"><svg class="ic"><use href="#i-camera"/></svg></span>
+                <span class="ctile__txt"><span class="ctile__t">Instagram</span><span class="ctile__s">@vitisdigital.agencia</span></span>
+                <svg class="ic ctile__arrow"><use href="#i-arrowUpRight"/></svg>
+              </a>
+              <a class="ctile" href="https://www.behance.net/gallery/243028033/Content-Creation-Lihue-Nanfra" target="_blank" rel="noopener">
+                <span class="ctile__ic"><svg class="ic"><use href="#i-grid"/></svg></span>
+                <span class="ctile__txt"><span class="ctile__t">Behance</span><span class="ctile__s">Portfolio completo</span></span>
+                <svg class="ic ctile__arrow"><use href="#i-arrowUpRight"/></svg>
+              </a>
             </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <p>Copyright © 2025 Vitis Digital - Todos los derechos reservados</p>
-        </div>
-      </div>
-    </footer>
 
-    <style>
-      .contact-dropdown {
-        position: relative;
-        display: inline-block;
-      }
-      .contact-options {
-        display: none;
-        position: absolute;
-        background: #fff;
-        min-width: 160px;
-        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-        z-index: 1;
-        border-radius: 8px;
-        margin-top: 8px;
-      }
-      .contact-options.show {
-        display: block;
-      }
-      .contact-options a {
-        color: #333;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        border-bottom: 1px solid #eee;
-        transition: background 0.2s;
-      }
-      .contact-options a:last-child {
-        border-bottom: none;
-      }
-      .contact-options a:hover {
-        background: #f7f7f7;
-      }
-    </style>
-    <script>
-      // Cierra el menú si se hace clic fuera o en una opción
-      document.addEventListener('click', function(event) {
-        var isButton = event.target.classList.contains('btn-principal');
-        var isOption = event.target.closest('.contact-options a');
-        var isDropdown = event.target.closest('.contact-options');
-        if (isOption) {
-          // Cierra el menú y permite la redirección
-          setTimeout(function() {
-            var dropdowns = document.getElementsByClassName('contact-options');
-            for (var i = 0; i < dropdowns.length; i++) {
-              dropdowns[i].classList.remove('show');
-            }
-          }, 100);
-        } else if (!isButton && !isDropdown) {
-          var dropdowns = document.getElementsByClassName('contact-options');
-          for (var i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-              openDropdown.classList.remove('show');
-            }
-          }
-        }
-      });
-    </script>
-    <script src="js/main.js"></script>
-  </body>
+        <!-- ================= TRABAJOS ================= -->
+        <section class="panel" data-panel="trabajos" hidden>
+          <div class="head-row">
+            <div class="head">
+              <div class="eyebrow">Nuestro trabajo</div>
+              <h2 class="title"><span class="title__big">Contenido pensado</span> <span class="title__it">para conectar.</span></h2>
+              <p class="text">Reels y carruseles que informan, inspiran y generan interacción.</p>
+            </div>
+            <a class="btn btn--pill btn--md" href="https://www.behance.net/gallery/243028033/Content-Creation-Lihue-Nanfra" target="_blank" rel="noopener">Ver portfolio en Behance</a>
+          </div>
+
+          <div class="collage">
+            <a class="tile-main" href="https://www.behance.net/gallery/243028033/Content-Creation-Lihue-Nanfra" target="_blank" rel="noopener">
+              <div class="ph"><img src="img/trabajos/humor.jpg" alt="Reel de humor" onerror="this.remove()"><span>Reel de humor</span><video src="video/humor.mp4" poster="img/trabajos/humor.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Reel de humor"></video></div>
+              <div class="tile-label">Humor</div>
+              <div class="seg"><span>Reels</span><span>Carruseles</span></div>
+            </a>
+            <div class="tile-col">
+              <div class="tile">
+                <a class="ui-card ui-card--l" href="https://www.behance.net/gallery/243028033/Content-Creation-Lihue-Nanfra" target="_blank" rel="noopener">
+                  <div class="ui-card__edit">EDITAR</div>
+                  <div class="ui-card__img"><div class="ph"><img src="img/trabajos/informativo.jpg" alt="Carrusel informativo" onerror="this.remove()"><span>Carrusel informativo</span></div></div>
+                  <div class="ui-card__foot"><span class="ui-card__name">Informativo</span><span class="ui-card__meta">Carrusel</span></div>
+                </a>
+                <div class="bubble bubble--l">Constancia antes que perfección</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reels">
+            <div class="head-row">
+              <div class="head">
+                <div class="eyebrow eyebrow--rose">Reels</div>
+                <h3 class="title title--sm"><span class="title__big">Videos que</span> <span class="title__it">frenan el scroll.</span></h3>
+              </div>
+              <p class="text reels__hint">Deslizá para ver más</p>
+            </div>
+            <div class="reels__row">
+              <figure class="reel"><video src="video/reel-af-1.mp4" poster="img/trabajos/poster-reel-af-1.jpg" muted loop playsinline preload="none" aria-label="Reel de @aestheticfitnessmendoza"></video><figcaption><span class="reel__tag">Humor</span><span class="reel__handle">@aestheticfitnessmendoza</span></figcaption></figure>
+              <figure class="reel"><video src="video/reel-sofi.mp4" poster="img/trabajos/poster-reel-sofi.jpg" muted loop playsinline preload="none" aria-label="Reel de @nutrisofi.ok"></video><figcaption><span class="reel__tag">Educativo</span><span class="reel__handle">@nutrisofi.ok</span></figcaption></figure>
+              <figure class="reel"><video src="video/reel-depormania.mp4" poster="img/trabajos/poster-reel-depormania.jpg" muted loop playsinline preload="none" aria-label="Reel de @depormania.arg"></video><figcaption><span class="reel__tag">Producto</span><span class="reel__handle">@depormania.arg</span></figcaption></figure>
+              <figure class="reel"><video src="video/reel-saom.mp4" poster="img/trabajos/poster-reel-saom.jpg" muted loop playsinline preload="none" aria-label="Reel de @saom.ind"></video><figcaption><span class="reel__tag">Moda</span><span class="reel__handle">@saom.ind</span></figcaption></figure>
+              <figure class="reel"><video src="video/reel-af-2.mp4" poster="img/trabajos/poster-reel-af-2.jpg" muted loop playsinline preload="none" aria-label="Reel de @aestheticfitnessmendoza"></video><figcaption><span class="reel__tag">Servicio</span><span class="reel__handle">@aestheticfitnessmendoza</span></figcaption></figure>
+              <figure class="reel"><video src="video/reel-somatic.mp4" poster="img/trabajos/poster-reel-somatic.jpg" muted loop playsinline preload="none" aria-label="Reel de @somaticspirit"></video><figcaption><span class="reel__tag">Storytelling</span><span class="reel__handle">@somaticspirit</span></figcaption></figure>
+            </div>
+          </div>
+
+          <div class="demo">
+            <div class="demo__txt">
+              <div class="eyebrow eyebrow--rose">Mockup interactivo</div>
+              <h3 class="title"><span class="title__big block">Tocá el celular</span><span class="title__it">y recorré un perfil.</span></h3>
+              <p class="text">Elegí una de las cuentas que administramos y recorrela como si estuvieras en Instagram.</p>
+              <div style="display:flex;flex-direction:column;gap:10px">
+                <span class="mini-label">Cuentas que administramos</span>
+                <div class="chips" id="profile-chips"></div>
+              </div>
+              <div class="chips">
+                <span class="hint">Tocá un posteo</span>
+                <span class="hint">Abrí una historia destacada</span>
+                <span class="hint">Dale me gusta</span>
+              </div>
+            </div>
+            <div class="phone">
+              <div class="phone__screen" id="phone-screen">
+                <div class="phone__status"><span>9:41</span><span class="phone__notch"></span><span>●●●</span></div>
+                <!-- El contenido del perfil lo arma js/main.js -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= SERVICIOS ================= -->
+        <section class="panel panel--svc" data-panel="servicios" hidden>
+          <div class="beads-wrap">
+            <div class="beads" data-beads="CÓMO"></div>
+            <div class="beads" data-beads="TRABAJAMOS"></div>
+            <div class="beads-sub">con tu marca.</div>
+          </div>
+
+          <div class="stack">
+            <div class="eyebrow">Qué hacemos</div>
+            <div class="svc-grid">
+              <div class="svc" style="--r:-1.5deg">
+                <div class="svc__top"><span class="svc__ic"><svg class="ic"><use href="#i-chart"/></svg></span><span class="svc__n">01</span></div>
+                <div class="svc__t">Estrategia de contenido</div>
+                <div class="svc__d">Definimos objetivos, ejes de comunicación y un calendario mensual para tu cuenta.</div>
+                <div class="svc__tags"><span>Calendario</span><span>Ejes</span><span>Objetivos</span></div>
+              </div>
+              <div class="svc svc--dark" style="--r:1deg">
+                <div class="svc__top"><span class="svc__ic"><svg class="ic"><use href="#i-camera"/></svg></span><span class="svc__n">02</span></div>
+                <div class="svc__t">Producción de fotos y reels</div>
+                <div class="svc__d">Planificamos y producimos el material para que tu feed se vea como tu marca.</div>
+                <div class="svc__tags"><span>Fotos</span><span>Reels</span><span>Historias</span></div>
+              </div>
+              <div class="svc" style="--r:-1deg">
+                <div class="svc__top"><span class="svc__ic"><svg class="ic"><use href="#i-message"/></svg></span><span class="svc__n">03</span></div>
+                <div class="svc__t">Community management</div>
+                <div class="svc__d">Respondemos comentarios y mensajes para que tu comunidad sienta una marca cercana.</div>
+                <div class="svc__tags"><span>Comentarios</span><span>Mensajes</span><span>Respuestas automáticas</span></div>
+              </div>
+              <div class="svc svc--dark" style="--r:1.5deg">
+                <div class="svc__top"><span class="svc__ic"><svg class="ic"><use href="#i-users"/></svg></span><span class="svc__n">04</span></div>
+                <div class="svc__t">Paid Media</div>
+                <div class="svc__d">Armamos y seguimos campañas en Meta para llegar a más personas de tu zona.</div>
+                <div class="svc__tags"><span>Meta Ads</span><span>Segmentación</span><span>Seguimiento</span></div>
+              </div>
+              <div class="svc" style="--r:-1deg">
+                <div class="svc__top"><span class="svc__ic"><svg class="ic ic--fill"><use href="#i-sparkle"/></svg></span><span class="svc__n">05</span></div>
+                <div class="svc__t">Sorteos y campañas</div>
+                <div class="svc__d">Acciones puntuales para activar seguidores y sumar nuevas personas.</div>
+                <div class="svc__tags"><span>Sorteos</span><span>Concursos</span><span>Lanzamientos</span></div>
+              </div>
+              <div class="svc" style="--r:1deg">
+                <div class="svc__top"><span class="svc__ic"><svg class="ic ic--fill"><use href="#i-heart"/></svg></span><span class="svc__n">06</span></div>
+                <div class="svc__t">Reporte mensual</div>
+                <div class="svc__d">Te mostramos qué funcionó, qué ajustamos y qué sigue el próximo mes.</div>
+                <div class="svc__tags"><span>Métricas</span><span>Aprendizajes</span><span>Próximos pasos</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="steps-box">
+            <h3 class="title title--sm"><span class="title__big">Así</span> <span class="title__it">arrancamos.</span></h3>
+            <div class="steps">
+              <div class="step"><span class="step__n">1</span><div class="step__t">Reunión</div><div class="step__d">Conocemos tu marca, tu público y lo que querés lograr.</div></div>
+              <div class="step"><span class="step__n">2</span><div class="step__t">Propuesta</div><div class="step__d">Te enviamos un plan a medida con el alcance de cada mes.</div></div>
+              <div class="step"><span class="step__n">3</span><div class="step__t">Estrategia</div><div class="step__d">Armamos el calendario y los ejes de contenido.</div></div>
+              <div class="step"><span class="step__n">4</span><div class="step__t">Producción</div><div class="step__d">Creamos, publicamos y acompañamos a tu comunidad.</div></div>
+              <div class="step"><span class="step__n">5</span><div class="step__t">Reporte</div><div class="step__d">Medimos resultados y ajustamos el mes siguiente.</div></div>
+            </div>
+          </div>
+
+          <div class="stack">
+            <h3 class="title title--sm"><span class="title__big">Elegí el plan</span> <span class="title__it">que acompaña a tu marca.</span></h3>
+            <div class="plans">
+              <div class="plan">
+                <div class="plan__name">Inicial</div>
+                <div class="plan__tag">Empezá a mostrar tu marca con constancia.</div>
+                <ul><li>4 publicaciones mensuales</li><li>2 días de historias por semana</li><li>Reporte mensual</li></ul>
+                <div class="plan__foot"><div class="plan__price">A medida</div><a class="btn btn--outline btn--md btn--block" data-wa href="#">Empecemos por lo esencial</a></div>
+              </div>
+              <div class="plan plan--dark">
+                <div class="plan__name">Intermedio</div>
+                <div class="plan__tag">Generá conexión real con tu comunidad.</div>
+                <ul><li>8 publicaciones mensuales</li><li>3 días de historias por semana</li><li>Sorteos y concursos</li><li>Respuesta automática de mensajes</li></ul>
+                <div class="plan__foot"><div class="plan__price">A medida</div><a class="btn btn--pill btn--md btn--block" data-wa href="#">Generá conexión real</a></div>
+              </div>
+              <div class="plan">
+                <div class="plan__name">Deluxe</div>
+                <div class="plan__tag">Llevá tu marca al siguiente nivel con estrategia completa.</div>
+                <ul><li>Contenido diario</li><li>Producción audiovisual mensual</li><li>Estrategia y reporte ampliado</li></ul>
+                <div class="plan__foot"><div class="plan__price">A medida</div><a class="btn btn--primary btn--md btn--block" data-wa href="#">Escalemos tu marca</a></div>
+              </div>
+            </div>
+            <p class="note">Nuestros planes son flexibles. Armamos una propuesta a medida para tu emprendimiento.</p>
+          </div>
+
+          <div class="ases">
+            <div class="ases__l">
+              <div class="eyebrow eyebrow--light">Asesoría</div>
+              <h3><span class="a">¿Querés mejorar tu estrategia? </span><span class="b">Empezá con una asesoría.</span></h3>
+            </div>
+            <div class="ases__r">
+              <p>Sesión 1:1 online donde auditamos tu perfil, definimos tu cliente ideal y te entregamos un plan de acción en PDF.</p>
+              <a class="btn btn--pill btn--lg" data-wa href="#">Reservar asesoría</a>
+            </div>
+          </div>
+
+          <div class="strip">
+            <div class="strip__t"><b>¿Dudas sobre precio o pauta?</b><span>Las respondemos en el chat de preguntas frecuentes.</span></div>
+            <button class="btn btn--primary btn--md" data-go="preguntas">Abrir el chat</button>
+          </div>
+        </section>
+
+        <!-- ================= REGALOS ================= -->
+        <section class="panel panel--res" data-panel="recursos" hidden>
+          <div class="head-row">
+            <div class="head">
+              <div class="eyebrow">Regalos</div>
+              <h2 class="title"><span class="title__big">Recursos</span> <span class="title__it">para vos.</span></h2>
+            </div>
+            <p>Herramientas que usamos todos los días, listas para descargar y aplicar en tu marca.</p>
+          </div>
+          <div class="window">
+            <div class="window__bar">
+              <div class="dots"><span></span><span></span><span></span></div>
+              <span class="window__path">Vitis Digital / <b>Regalos</b></span>
+            </div>
+            <div class="window__body">
+              <div class="res-list" id="res-list"></div>
+              <div class="res-prev">
+                <div class="res-prev__img" id="res-img"></div>
+                <div>
+                  <div class="res-prev__t" id="res-title"></div>
+                  <div class="res-prev__d" id="res-desc"></div>
+                </div>
+                <ul id="res-includes"></ul>
+                <div><a class="btn btn--primary btn--md" id="res-dl" href="#" target="_blank" rel="noopener" download>Descargar gratis</a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= PREGUNTAS ================= -->
+        <section class="panel panel--faq" data-panel="preguntas" hidden>
+          <div class="head">
+            <div class="eyebrow">Preguntas frecuentes</div>
+            <h2 class="title"><span class="title__big">Preguntanos</span> <span class="title__it">lo que quieras.</span></h2>
+            <p class="text">Precio, pauta, tiempos y forma de trabajo. Tocá una pregunta y te respondemos.</p>
+          </div>
+          <div class="chat">
+            <div class="chat__head">
+              <span class="chat__av">V</span>
+              <span class="chat__who"><b>Vitis Digital</b><small>Preguntas frecuentes</small></span>
+            </div>
+            <div class="chat__msgs" id="chat-msgs" aria-live="polite"></div>
+            <div class="chat__foot">
+              <span class="mini-label">Tocá una pregunta</span>
+              <div class="chips" id="chat-chips"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= JUEGO: VITIS RUN ================= -->
+        <section class="panel panel--game" data-panel="juego" hidden>
+          <div class="head-row">
+            <div class="head">
+              <div class="eyebrow eyebrow--rose">Jugá y ganá</div>
+              <h2 class="title"><span class="title__big">Vitis</span> <span class="title__it">Run.</span></h2>
+              <p class="text">Corré por el feed, juntá me gusta y esquivá los errores que arruinan un perfil. Llegá a <b><span id="vr-goal">400</span> me gusta</b> y ganás una <b>Auditoría Express</b> de tu Instagram.</p>
+            </div>
+          </div>
+
+          <article class="vr-post" aria-label="Juego Vitis Run">
+            <div class="vr-ph">
+              <div class="vr-ring"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.35-7-9.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 7 3.5C19 15.65 12 20 12 20z" fill="#EE3C67"/></svg></span></div>
+              <div class="vr-who"><b>vitis.run</b><small>Mendoza, Argentina · Patrocinado por Vitis Digital</small></div>
+              <div class="vr-lives" id="vr-lives" aria-label="Tropiezos permitidos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.35-7-9.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 7 3.5C19 15.65 12 20 12 20z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.35-7-9.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 7 3.5C19 15.65 12 20 12 20z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.35-7-9.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 7 3.5C19 15.65 12 20 12 20z"/></svg></div>
+            </div>
+            <div class="vr-stage">
+              <canvas id="vr-canvas" tabindex="0" aria-label="Juego: un corazón con aro de historia corre por el feed, salta y se agacha para esquivar errores de marketing"></canvas>
+              <div class="vr-bar"><i id="vr-prog"></i></div>
+            </div>
+            <p class="vr-likes"><b id="vr-score">0</b> me gusta · mejor marca <b id="vr-best">0</b></p>
+            <p class="vr-caption"><b>vitis.run</b> Un perfil con errores pierde seguidores. Saltalos y mirá cuántos me gusta juntás.</p>
+            <div class="vr-comments" id="vr-comments"></div>
+          </article>
+
+          <div class="vr-controls">
+            <button class="btn btn--primary btn--md" id="vr-jump" type="button"><span class="vr-key" id="vr-kUp" aria-hidden="true">↑</span>Saltar</button>
+            <button class="btn btn--outline btn--md" id="vr-duck" type="button"><span class="vr-key" id="vr-kDown" aria-hidden="true">↓</span>Agacharse</button>
+          </div>
+          <p class="vr-hint"><b>Compu:</b> flecha arriba para saltar y flecha abajo (mantenida) para agacharte. <b>Celular:</b> deslizá hacia arriba para saltar y hacia abajo, sin soltar, para agacharte. Saltá lo que está en el piso y agachate bajo los carteles que cuelgan.</p>
+          <p class="vr-status" id="vr-status" role="status" aria-live="polite"></p>
+
+          <div class="vr-result" id="vr-result" hidden>
+            <h3 class="vr-rank" id="vr-rank">Fin del juego</h3>
+            <div class="vr-stats"><span>Me gusta: <b id="vr-rScore">0</b></span><span>Mejor marca: <b id="vr-rBest">0</b></span><span>Corazones: <b id="vr-rHearts">0</b></span></div>
+            <p id="vr-note"></p>
+            <ul class="vr-tags" id="vr-tags"></ul>
+            <div class="vr-cta" id="vr-cta" hidden>
+              <h4 id="vr-cta-title"></h4>
+              <p id="vr-cta-text"></p>
+              <div class="btn-row" style="justify-content:flex-start">
+                <a class="btn btn--primary btn--md" id="vr-wa" href="#" target="_blank" rel="noopener"><svg class="ic ic--fill" style="--s:18px"><use href="#i-whatsapp"/></svg>Enviar por WhatsApp</a>
+                <button class="btn btn--pill btn--md" id="vr-again" type="button">Jugar de nuevo</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__in">
+      <span>Estrategia de contenido</span><i>✦</i>
+      <span>Producción de contenido</span><i>✦</i>
+      <span>Community management</span><i>✦</i>
+      <span>Sorteos y campañas</span><i>✦</i>
+      <span>Estrategia de contenido</span><i>✦</i>
+      <span>Producción de contenido</span><i>✦</i>
+      <span>Community management</span><i>✦</i>
+      <span>Sorteos y campañas</span>
+    </div>
+  </div>
+
+  <section id="instagram" class="ig">
+    <div class="ig__in">
+      <div class="head" style="align-items:center;gap:10px">
+        <div class="eyebrow eyebrow--rose">Instagram en vivo</div>
+        <a class="ig__handle" href="https://www.instagram.com/vitisdigital.agencia/" target="_blank" rel="noopener">@vitisdigital.agencia</a>
+      </div>
+      <div class="ig__frame">
+        <iframe src="https://www.instagram.com/vitisdigital.agencia/embed" title="Instagram de Vitis Digital" loading="lazy" scrolling="no"></iframe>
+      </div>
+      <a class="btn btn--primary btn--md" href="https://www.instagram.com/vitisdigital.agencia/" target="_blank" rel="noopener">Seguinos en Instagram</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__in">
+    <div class="footer__brand"><b>Vitis</b><small>DIGITAL · AGENCIA DE MARKETING</small></div>
+    <div class="footer__links">
+      <a href="mailto:info@vitisdigital.com.ar">info@vitisdigital.com.ar</a>
+      <a href="https://www.instagram.com/vitisdigital.agencia/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.behance.net/gallery/243028033/Content-Creation-Lihue-Nanfra" target="_blank" rel="noopener">Behance</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Formulario antes de descargar un regalo -->
+<div class="modal" id="lead-modal" hidden role="dialog" aria-modal="true" aria-labelledby="lead-title">
+  <div class="modal__box">
+    <button class="modal__x" data-close aria-label="Cerrar">×</button>
+    <div class="eyebrow eyebrow--rose">Regalo gratis</div>
+    <h3 class="modal__title" id="lead-title">Descargá <span id="lead-res"></span></h3>
+    <p class="modal__text">Dejanos tu WhatsApp <b>o</b> tu mail y la descarga empieza al instante.</p>
+    <form id="lead-form" novalidate>
+      <div class="seg-toggle" role="radiogroup" aria-label="Cómo querés que te contactemos">
+        <button type="button" class="is-on" data-mode="whatsapp" role="radio" aria-checked="true">WhatsApp</button>
+        <button type="button" data-mode="email" role="radio" aria-checked="false">Email</button>
+      </div>
+      <label class="sr-only" for="lead-input">Tu contacto</label>
+      <input id="lead-input" name="contacto" type="tel" inputmode="tel" autocomplete="tel" placeholder="Ej: 261 555 1234" required>
+      <p class="form-err" id="lead-err" role="alert"></p>
+      <button class="btn btn--primary btn--md btn--block" type="submit">Descargar gratis</button>
+      <p class="form-legal">Usamos tu contacto solo para enviarte novedades de Vitis Digital. Podés pedirnos que lo borremos cuando quieras.</p>
+    </form>
+  </div>
+</div>
+
+<!-- Pop up de salida -->
+<div class="modal" id="exit-modal" hidden role="dialog" aria-modal="true" aria-labelledby="exit-title">
+  <div class="modal__box modal__box--exit">
+    <button class="modal__x" data-close aria-label="Cerrar">×</button>
+    <svg class="ic ic--fill exit__spark" aria-hidden="true"><use href="#i-sparkle"/></svg>
+    <div class="eyebrow eyebrow--light">Antes de irte</div>
+    <h3 class="modal__title"><span class="block">¿Coordinamos</span><span class="exit__it">una charla?</span></h3>
+    <p class="modal__text">Escribinos por WhatsApp y te respondemos con una idea para tu marca.</p>
+    <a class="btn btn--pill btn--lg btn--block" data-wa href="#" target="_blank" rel="noopener"><svg class="ic ic--fill" style="--s:20px"><use href="#i-whatsapp"/></svg>Escribinos por WhatsApp</a>
+    <button class="exit__no" data-close type="button">Ahora no</button>
+  </div>
+</div>
+
+<a class="fab" data-wa href="#" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+  <svg class="ic ic--fill"><use href="#i-whatsapp"/></svg>
+  <span>WhatsApp</span>
+</a>
+
+<script src="js/main.js"></script>
+<script src="js/juego.js"></script>
+</body>
 </html>
