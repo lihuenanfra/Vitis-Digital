@@ -686,3 +686,30 @@ body.has-modal{overflow:hidden}
 /* "Cómo trabajamos": bolitas en bordó para que se lean sobre el fondo blanco */
 .bead{background:var(--vitis-bordo-800);color:#fff;box-shadow:0 4px 0 var(--vitis-bordo-900),0 8px 18px rgba(112,7,36,.22)}
 .beads[data-beads="CÓMO"] .bead{background:var(--vitis-rose-600);box-shadow:0 4px 0 var(--vitis-bordo-800),0 8px 18px rgba(112,7,36,.22)}
+
+/* ---------- Portada: "Hacemos que tu sueño trascienda." ---------- */
+.hero-title--sueno{gap:2px}
+.hero-title--sueno .l1{font-weight:800;text-transform:uppercase;letter-spacing:-.02em;font-size:clamp(30px,5.6vw,76px);line-height:1;color:var(--vitis-bordo-900)}
+.hero-title--sueno .l2{font-family:var(--font-sans);font-weight:900;letter-spacing:-.03em;color:var(--vitis-rose-600);font-size:clamp(54px,8.8vw,124px);line-height:1.02}
+.hero-title--sueno .mk{background:linear-gradient(transparent 60%,var(--vitis-pink-200) 60%,var(--vitis-pink-200) 92%,transparent 92%);padding:0 .14em}
+
+/* ---------- Celular: pestañas en grilla de 3, todas a la vista ---------- */
+@media (max-width:640px){
+  .hero{padding:28px 14px 56px}
+  .tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:0;margin-bottom:10px;overflow:visible}
+  .tab{padding:12px 6px;font-size:12px;letter-spacing:.03em;border-radius:14px;margin:0;box-shadow:0 4px 14px rgba(0,0,0,.25);text-align:center}
+  .tab.is-active{box-shadow:0 4px 14px rgba(0,0,0,.25)}
+  .folder.is-home .home{border-top-left-radius:var(--radius-3xl)}
+  .folder__body{border-radius:24px}
+  .home{padding:40px 20px 44px}
+  .sticker--a,.sticker--b{display:none}
+}
+@media (max-width:640px){
+  .beads{gap:4px;flex-wrap:nowrap}
+  .bead{width:30px;height:30px;font-size:15px}
+}
+@media (max-width:640px){
+  .panel{padding:28px 18px}
+  .bead{width:min(34px,calc((100vw - 110px) / 10));height:min(34px,calc((100vw - 110px) / 10));font-size:min(16px,calc((100vw - 110px) / 20))}
+}
+html,body{overflow-x:hidden}main{overflow-x:clip}
